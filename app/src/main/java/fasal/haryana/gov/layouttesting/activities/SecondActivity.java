@@ -1,4 +1,4 @@
-package fasal.haryana.gov.layouttesting;
+package fasal.haryana.gov.layouttesting.activities;
 
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
@@ -8,6 +8,8 @@ import android.os.Bundle;
 import android.view.View;
 import android.view.Window;
 import android.widget.Button;
+
+import fasal.haryana.gov.layouttesting.R;
 
 public class SecondActivity extends AppCompatActivity {
 

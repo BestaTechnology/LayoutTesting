@@ -13,4 +13,9 @@
         <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
     </style>
+
+
+    <style name="error_color" parent="@android:style/TextAppearance">
+        <item name="android:textColor">#4CAF50</item>
+    </style>
 </resources>

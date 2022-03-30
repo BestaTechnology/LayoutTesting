@@ -9,10 +9,12 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.LayoutTesting">
-        <activity android:name=".SecondActivity"
-            android:parentActivityName=".MainActivity"></activity>
+        <activity android:name=".activities.TransitionActivity" />
         <activity
-            android:name=".MainActivity"
+            android:name=".activities.SecondActivity"
+            android:parentActivityName=".activities.MainActivity" />
+        <activity
+            android:name=".activities.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
